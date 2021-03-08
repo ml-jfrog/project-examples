@@ -2,8 +2,6 @@ buildscript {
 	ext {
         artifactory_url = System.getenv().int_orb_artifactory_url
         springBootVersion = '1.3.7.RELEASE'
-
-//		println "Arti url: ${artifactory_url}"
 	}
 	repositories {
 		maven {
