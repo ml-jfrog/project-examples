@@ -5,7 +5,8 @@ FROM docker.bintray.io/jfrog/pipelines-u18java:8
 RUN apt-get update
 
 #COPY gradle_results/*/frogsws-0.1.0-$BUILD_NUMBER.jar /ws/frogsws.jar
-#COPY wrapper.sh /wrapper.sh
+COPY gradle_results/*/frogsws-0.1.0-18.jar /ws/frogsws.jar
+COPY wrapper.sh /wrapper.sh
 
 EXPOSE 81 9000
 
