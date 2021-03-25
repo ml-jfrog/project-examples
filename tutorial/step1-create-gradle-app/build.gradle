@@ -40,7 +40,7 @@ targetCompatibility = 1.8
 
 repositories {
 	maven {
-		url "${artifactory_url}/team1-gradle"
+		url "${artifactory_url}/gradle-demo"
 		credentials {
 			username = System.getenv().int_orb_artifactory_user
 			password = System.getenv().int_orb_artifactory_apikey
