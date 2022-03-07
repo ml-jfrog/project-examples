@@ -1,5 +1,5 @@
-# Environment integration Java8 + nginx
-FROM docker.bintray.io/jfrog/pipelines-u18java:8
+# Environment integration Java11 + nginx
+FROM docker.bintray.io/jfrog/pipelines-u18java:11
 #ENV BUILD_NUMBER
 # get the jar
 RUN apt-get update
